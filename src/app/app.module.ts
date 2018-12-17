@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SettingsComponent } from './settings/settings.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SettingsProfileComponent } from './settings-profile/settings-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SettingsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SettingsProfileComponent
   ],
   imports: [
     BrowserModule,
